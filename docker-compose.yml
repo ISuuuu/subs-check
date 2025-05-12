@@ -16,7 +16,7 @@ services:
       # - HTTP_PROXY=http://192.168.1.1:7890
       # - HTTPS_PROXY=http://192.168.1.1:7890
       # 设置 api-key
-    API_KEY=thisisatestkey
+      - API_KEY=thisisatestkey
     restart: always
     tty: true
     network_mode: 1panel-network
